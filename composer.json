@@ -8,7 +8,7 @@
             "email": "1009041210@qq.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "support": {
         "source": "https://github.com/aond/watermark"
     },
