@@ -36,6 +36,9 @@ class WaterMark
      */
     public function setSrc($path = '') {
         if (file_exists($path)) {
+            if ($this->_src) {
+                unset($this->_src);
+            }
             $this->_src = new Image($path);
         }
         return $this;
